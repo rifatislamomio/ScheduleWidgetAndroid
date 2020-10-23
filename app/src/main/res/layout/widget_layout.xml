@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/gonext"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:background="#00550055">
+
+    <TextView
+        android:id="@+id/ben"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:fontFamily="@font/sourcesanspro_regular"
+        android:text="BEN205 09:40 RA"
+        android:textColor="#FFF" />
+    <TextView
+        android:id="@+id/andro"
+        android:layout_below="@+id/ben"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/sourcesanspro_regular"
+        android:text="CSE486 02:40 MW"
+        android:textColor="#FFF" />
+    <TextView
+        android:id="@+id/jrdes"
+        android:layout_below="@+id/andro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:fontFamily="@font/sourcesanspro_regular"
+        android:text="CSE299 04:20 M"
+        android:textColor="#FFF" />
+    <TextView
+        android:id="@+id/androlab"
+        android:layout_below="@+id/jrdes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:fontFamily="@font/sourcesanspro_regular"
+        android:text="CSE486L 02:40 R"
+        android:textColor="#FFF" />
+
+</RelativeLayout>
